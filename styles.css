@@ -1,0 +1,162 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Using the Roboto font */
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #17202A; /* Dark background for the navbar */
+  padding: 10px;
+}
+
+.navbar nav ul {
+  display: flex;  /* Inline display for navbar items */
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navbar nav ul li {
+  margin: 0 10px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+  color: #f39c12; /* Hover effect for the navbar */
+}
+
+/* Styling the search input container */
+.input__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input__search {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.input__button__shadow {
+  background-color: #f39c12;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.submit {
+  background-color: #17202A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.submit:hover {
+  background-color: #f39c12;
+}
+
+footer {
+  background-color: #17202A;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #17202A;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #f39c12;
+}
+
+/* Styling the form */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form .title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form .message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form .signin {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.form .signin a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+.form .signin a:hover {
+  text-decoration: underline;
+}
+
